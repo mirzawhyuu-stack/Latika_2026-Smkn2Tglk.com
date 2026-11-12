@@ -481,9 +481,7 @@ function eks() {
     const joined = mine.includes(o.n);
     const count  = items.filter(i => i.o === o.n).length;
 
-    const joinBtn = me.r === "siswa"
-      ? `<button class="btn s ${joined ? "d" : ""}" onclick="toggleJ('${o.n}')">${joined ? "Keluar" : "Gabung"}</button>`
-      : "";
+    
 
     return `
       <div class="card org c${x % 6}">
